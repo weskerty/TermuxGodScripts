@@ -1,7 +1,6 @@
 <div style="text-align:center;"
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1a23e163-4c00-49e5-bccb-24d52ec8d65c" alt="Termuxito" width="100">
-
 <h1 align="center">Termux Good</h1>
 Scripts Automaticos y Utilidades 
 
