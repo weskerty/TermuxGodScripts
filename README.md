@@ -9,6 +9,8 @@ Scripts Automaticos y Utilidades
 [![pt-br](https://img.shields.io/badge/Português-pt--br-green.svg)](README.pt-br.md)
 [![es](https://img.shields.io/badge/Espa%C3%B1ol-es-yellow.svg)](README.es.md)
 
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
+
 </div>
 
 
