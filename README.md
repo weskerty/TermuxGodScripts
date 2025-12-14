@@ -31,4 +31,17 @@ Instala un entorno de escritorio para usar ek telefono como PC [Fuente]()
 <details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> </details>
 
 # Mas Utilidades 
-[Utils Commands](https://github.com/T4P4N/Awesome-Termux)
+#### [Utils Commands](https://github.com/T4P4N/Awesome-Termux)
+> Comandos Utiles en Termux
+
+#### [TermuxSetup.SH](https://github.com/Willie169/termux-sh?tab=readme-ov-file#termux-sh)
+> Termux setup and utility scripts for development tools, proot, QEMU, box86, and more.
+
+
+
+# Repositorios Extra
+#### [TermuxVoid](https://github.com/termuxvoid/repo)
+> Herramientas de Seguridad
+
+####
+
