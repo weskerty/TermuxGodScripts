@@ -7,7 +7,7 @@ sleep 7
 termux-wake-lock
 apt-get update
 pkg i -y tur-repo x11-repo
-apt update -y && yes | apt upgrade && pkg install -y android-tools ano clang make git ffmpeg nodejs-lts pkg-config libxml2 libxslt matplotlib xorgproto rust binutils wget build-essential libvips python-pip glib termux-services termux-x11-nightly
+apt update -y && yes | apt upgrade && pkg install -y android-tools ano clang make git ffmpeg nodejs-lts pkg-config libxml2 libxslt matplotlib xorgproto rust binutils wget build-essential libvips python-pip glib termux-services termux-api termux-x11-nightly
 pip install cython wheel setuptools python-dotenv
 
 echo "\e[1;33m Finalizado \e[0m"
