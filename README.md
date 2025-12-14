@@ -19,9 +19,12 @@ Agregar el servidor x11-repo e instalar el paquete:
 
 
 # AllDeps
-Instala dependencias de compilacion y repositorio de comunidad (Similar a ChaoticAUR) 
+Instala dependencias de compilacion, repositorio de comunidad (Similar a ChaoticAUR) y Utilidades Extra. Todo para evitar el dolor de cabeza de Dependencias faltantes.
 Util para instalar SQlite3 en NodeJS NPM
 - [ ] https://github.com/TryGhost/node-sqlite3/issues/1534
+
+> [!NOTE]
+> Hara que Termux Pese 5GB en Almacenamiento.
 
 # PC - Termux PC
 Instala un entorno de escritorio para usar ek telefono como PC [Fuente]()
