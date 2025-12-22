@@ -55,8 +55,8 @@ Script that automates permissions so Termux is not killed by the System.
 
 ### Run Script:
 ```
-apt update -y && yes | apt upgrade && pkg install -y android-tools
-curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/NoKill.sh | bash
+bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/NoKill.sh)
+
 
 ```
 
@@ -84,8 +84,7 @@ Script to retransmit an external server into Termux:11. See External Server (not
 
 ### Run Script:
 ```
-pkg install x11-repo
-apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
+
 
 ```
 
@@ -107,8 +106,7 @@ Useful to install SQLite3 for NodeJS NPM
 
 ### Run Script:
 ```
-pkg install x11-repo
-apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
+
 
 ```
 
