@@ -23,8 +23,8 @@ Automated Scripts and Utilities for Termux
 Everyone is welcome to the Telegram Group
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
 
-# Indice 
-<details> <summary># 🛂 Indice</summary>
+
+<details> <summary> 🛂 Indice</summary>
 
 
 </details>
@@ -108,7 +108,9 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 ```
 
 </details>
+
 </br>
+
 ## Gemini on Termux
 <details> <summary>🌅More Info</summary> <table> <tr> <td>
 
@@ -117,15 +119,19 @@ https://github.com/user-attachments/assets/2978aaa3-edf5-4a3a-9cd3-4541bab48a16
 </tr> </table> 
 
 Install:
+
 ```
 curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gemini | bash
 
 ```
+
 [Source](https://github.com/offici5l/termux-utils/blob/main/google/gemini)
 
 
 </details>
+
 </br>
+
 ## PC - Termux PC
 
 Installs a desktop environment to use the phone as a PC
@@ -151,6 +157,7 @@ Scripts Need Root
 <details> <summary>Clic to Show List️</summary>
 
 ### [MIUI Unlock BootLoader](https://github.com/offici5l/MiUnlockTool?tab=readme-ov-file#quick-install-androidtermux)
+
 </br>
 
 
@@ -191,7 +198,8 @@ An interesting list that I haven't tested yet.
 # Extra Repos
 
 <details> <summary>🌅More Info️</summary
-### [TUR Repo Oficial](https://github.com/termux-user-repository/tur?tab=readme-ov-file#termux-user-repository-tur)
+
+  ### [TUR Repo Oficial](https://github.com/termux-user-repository/tur?tab=readme-ov-file#termux-user-repository-tur)
 > Este repositorio es Similar a [ChaoticAUR](https://aur.chaotic.cx/) de ArchLinux, encontraras paquetes exoticos mantenidos por la comunidad.
 
 
