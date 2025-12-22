@@ -45,7 +45,7 @@ curl -sS https://raw. | bash
 
 ```
 
-# AutoScripts
+# 🤖 AutoScripts
 ## NoKill - No Kill Termux by System
 
 Script that automates permissions so Termux is not killed by the System.
@@ -133,27 +133,49 @@ curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gem
 </br>
 
 ## PC - Termux PC
-
-Installs a desktop environment to use the phone as a PC
-
-<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
-
-> [!NOTE]
-> Need Install: [Termux:X11 App](https://github.com/termux/termux-x11/releases)
-
-Install xfce
-```
-
-```
-
-[Source](https://github.com/LinuxDroidMaster/Termux-Desktops?tab=readme-ov-file#android-on-linux-termux-x11-desktops)
+Installs a desktop environment to use the phone as a PC [Source](https://github.com/LinuxDroidMaster/Termux-Desktops?tab=readme-ov-file#android-on-linux-termux-x11-desktops)
 </details>
 
+<details> <summary>🌅More Info</summary>
+
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
+
+> [!NOTE]
+> All Metods Need Install: [Termux:X11 App](https://github.com/termux/termux-x11/releases)
+
+### Install Desktop Enviorment
+<details> <summary>🐭xfce</summary
+
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
+
+
+```
+
+```
+</details>
+
+<details> <summary>🐦LXQt</summary
+
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
+</details>
+
+
+
+
+
+
+
+
+
+</details>
 </br>
 </br>
 
-# ROOT Scripts
-Scripts Need Root
+# 🛡️ ROOT Utils
+
+> [!NOTE]
+> Scripts Need Root
+
 <details> <summary>Clic to Show List️</summary>
 
 ### [MIUI Unlock BootLoader](https://github.com/offici5l/MiUnlockTool?tab=readme-ov-file#quick-install-androidtermux)
@@ -168,13 +190,14 @@ Scripts Need Root
 </br>
 </br>
 
-# Server Scripts 
-
+# 🖥️ Server Util
+<details> <summary>🌅More Info</summary>
+</details> 
 
 </br>
 </br>
 
-# More Utilities
+# 🧰 More Utilities
 
 An interesting list that I haven't tested yet.
 <details> <summary>🌅More Info️</summary
@@ -201,7 +224,7 @@ An interesting list that I haven't tested yet.
 
 </details>
 
-# Extra Repos
+# 🗄️ Extra Repos
 
 <details> <summary>🌅More Info️</summary
 
