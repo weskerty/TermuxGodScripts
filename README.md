@@ -14,16 +14,18 @@
 <h1 align="center">Termux Good</h1>
 Automated Scripts and Utilities for Termux
 
-[![en](https://img.shields.io/badge/English-red.svg)](README.md)
+<--! [![en](https://img.shields.io/badge/English-red.svg)](README.md)
 [![pt-br](https://img.shields.io/badge/Português-pt--br-green.svg)](README.pt-br.md)
 [![es](https://img.shields.io/badge/Espa%C3%B1ol-es-yellow.svg)](README.es.md)
+-->
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
+Everyone is welcome to the Telegram Group
 
 </div>
-
+</br>
 # Install OhMyZsh
-### Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
+##### Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
 This script will install OhMyZsh, add the community repository
 
 
@@ -108,9 +110,23 @@ curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gem
 
 ## PC - Termux PC
 
-Installs a desktop environment to use the phone as a PC [Source]()
+Installs a desktop environment to use the phone as a PC
 
-<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> </details>
+<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
+
+> [!NOTE]
+> Need Install: [Termux:X11 App](https://github.com/termux/termux-x11/releases)
+
+Install xfce
+```
+
+```
+
+[Source](https://github.com/LinuxDroidMaster/Termux-Desktops?tab=readme-ov-file#android-on-linux-termux-x11-desktops)
+</details>
+
+</br>
+</br>
 
 # Root Scripts
 Scripts Need Root
@@ -124,6 +140,8 @@ Scripts Need Root
 
 </details> 
 
+</br>
+</br>
 
 # More Utilities
 
