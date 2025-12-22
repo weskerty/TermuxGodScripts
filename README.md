@@ -23,10 +23,17 @@ Automated Scripts and Utilities for Termux
 Everyone is welcome to the Telegram Group
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
 
+# Indice 
+<details> <summary># 🛂 Indice</summary>
 
+
+</details>
 
 </div>
 </br>
+
+
+
 # Install OhMyZsh
 
 ##### Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
@@ -38,7 +45,7 @@ curl -sS https://raw. | bash
 
 ```
 
-
+# AutoScripts
 ## NoKill - No Kill Termux by System
 
 Script that automates permissions so Termux is not killed by the System.
@@ -54,6 +61,8 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 ```
 
 </details>
+
+</br>
 
 ## SSHX - X11 forwarding
 
@@ -77,7 +86,7 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 </details>
 
-
+</br>
 
 ## AllDeps
 
@@ -99,7 +108,7 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 ```
 
 </details>
-
+</br>
 ## Gemini on Termux
 <details> <summary>🌅More Info</summary> <table> <tr> <td>
 
@@ -116,7 +125,7 @@ curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gem
 
 
 </details>
-
+</br>
 ## PC - Termux PC
 
 Installs a desktop environment to use the phone as a PC
@@ -141,8 +150,8 @@ Install xfce
 Scripts Need Root
 <details> <summary>Clic to Show List️</summary>
 
-## [MIUI Unlock BootLoader](https://github.com/offici5l/MiUnlockTool?tab=readme-ov-file#quick-install-androidtermux)
-
+### [MIUI Unlock BootLoader](https://github.com/offici5l/MiUnlockTool?tab=readme-ov-file#quick-install-androidtermux)
+</br>
 
 
 
@@ -155,7 +164,7 @@ Scripts Need Root
 # More Utilities
 
 An interesting list that I haven't tested yet.
-
+<details> <summary>🌅More Info️</summary
 
 #### [Utils Commands](https://github.com/T4P4N/Awesome-Termux?tab=readme-ov-file#introduction)
 > Comandos Utiles en Termux
@@ -177,7 +186,11 @@ An interesting list that I haven't tested yet.
 
 #### [MC Server](https://github.com/denizxss/termux-minecraft-server-script?tab=readme-ov-file#termux-minecraft-server-script)
 
+</details>
+
 # Extra Repos
+
+<details> <summary>🌅More Info️</summary
 ### [TUR Repo Oficial](https://github.com/termux-user-repository/tur?tab=readme-ov-file#termux-user-repository-tur)
 > Este repositorio es Similar a [ChaoticAUR](https://aur.chaotic.cx/) de ArchLinux, encontraras paquetes exoticos mantenidos por la comunidad.
 
@@ -188,6 +201,7 @@ An interesting list that I haven't tested yet.
 #### [ivam3](https://github.com/T4P4N/Awesome-Termux?tab=readme-ov-file#introduction)
 > Herramientas de Seguridad 2
 
+</details>
 
 
 
