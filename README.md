@@ -14,12 +14,15 @@
 <h1 align="center">Termux Good</h1>
 Automated Scripts and Utilities for Termux
 
-<--! [![en](https://img.shields.io/badge/English-red.svg)](README.md)
+<!-- 
+[![en](https://img.shields.io/badge/English-red.svg)](README.md)
 [![pt-br](https://img.shields.io/badge/Português-pt--br-green.svg)](README.pt-br.md)
 [![es](https://img.shields.io/badge/Espa%C3%B1ol-es-yellow.svg)](README.es.md)
+
 -->
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
+
 Everyone is welcome to the Telegram Group
 
 </div>
@@ -78,6 +81,8 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 ## AllDeps
 
 Installs build dependencies, community repository (similar to ChaoticAUR), and extra utilities. Everything to avoid the headache of missing dependencies.
+<details> <summary>🌅More Info</summary>
+
 Useful to install SQLite3 for NodeJS NPM
 
 * [ ] [https://github.com/TryGhost/node-sqlite3/issues/1534](https://github.com/TryGhost/node-sqlite3/issues/1534)
@@ -91,6 +96,9 @@ pkg install x11-repo
 apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 ```
+
+</details>
+
 ## Gemini on Termux
 <details> <summary>🌅More Info</summary> <table> <tr> <td>
 
