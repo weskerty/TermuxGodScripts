@@ -195,6 +195,33 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 
 # 🖥️ Server Util
 <details> <summary>🌅More Info</summary>
+
+### AcopleBot
+Multi Platform Bot Chat 
+```
+
+```
+
+### [Levanter lyfe](https://github.com/lyfe00011/levanter?tab=readme-ov-file#whatsapp-md-user-bot)
+WhatsApp Bot MultiFuncion
+
+```
+bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/MysticTools/refs/heads/main/Utilidades/Lev/Termux2.sh)
+
+```
+
+
+### LAMP (Apache - MySQL - PHP)
+Host your own web pages such as a Wordpress page on your Android device.
+
+[Tutorial](https://github.com/LinuxDroidMaster/Termux-Projects/blob/main/projects/lamp_server_wordpress.md)
+
+### P2P Torrents Server
+
+
+
+
+
 </details> 
 
 </br>
@@ -203,9 +230,11 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 # 🧰 More Utilities
 
 An interesting list that I haven't tested yet.
+
 <details> <summary>🌅More Info️</summary
 
 #### [Utils Commands](https://github.com/T4P4N/Awesome-Termux?tab=readme-ov-file#introduction)
+
 > Comandos Utiles en Termux
 
 #### [TermuxSetup.SH](https://github.com/Willie169/termux-sh?tab=readme-ov-file#termux-sh)
@@ -231,7 +260,9 @@ An interesting list that I haven't tested yet.
 
 <details> <summary>🌅More Info️</summary
 
+
   ### [TUR Repo Oficial](https://github.com/termux-user-repository/tur?tab=readme-ov-file#termux-user-repository-tur)
+  
 > Este repositorio es Similar a [ChaoticAUR](https://aur.chaotic.cx/) de ArchLinux, encontraras paquetes exoticos mantenidos por la comunidad.
 
 
