@@ -25,6 +25,7 @@ Everyone is welcome to the Telegram Group
 
 
 <details> <summary> 🛂 Indice</summary>
+
 [🖥Desktop Mode Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-root-utils)
 
 [📤Server Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-server-util)
@@ -32,6 +33,7 @@ Everyone is welcome to the Telegram Group
 [🔓Root Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-root-utils)
 
 [🧰Extra Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#-more-utilities)
+
 [🗄Extra Repos](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-extra-repos)
 
 </details>
