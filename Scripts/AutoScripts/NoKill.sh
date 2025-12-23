@@ -8,6 +8,12 @@ printf 'n\n'|termux-setup-storage
 sleep 5
 termux-wake-lock
 
+if ! command -v adb >/dev/null 2>&1;then
+printf '\033[33mInstalando ADB...\033[0m\n'
+apt update -y && yes | apt upgrade
+pkg install -y android-tools
+fi
+
 if su -c "id" >/dev/null 2>&1;then
 printf '\033[32mROOT\033[0m\n'
 
