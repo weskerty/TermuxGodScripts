@@ -25,7 +25,14 @@ Everyone is welcome to the Telegram Group
 
 
 <details> <summary> 🛂 Indice</summary>
+[🖥Desktop Mode Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-root-utils)
 
+[📤Server Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-server-util)
+
+[🔓Root Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-root-utils)
+
+[🧰Extra Utils](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#-more-utilities)
+[🗄Extra Repos](https://github.com/weskerty/TermuxGod/tree/main?tab=readme-ov-file#%EF%B8%8F-extra-repos)
 
 </details>
 
@@ -36,7 +43,7 @@ Everyone is welcome to the Telegram Group
 
 # Install OhMyZsh
 
-##### Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
+Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
 This script will install OhMyZsh, add the community repository
 
 
