@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg i -y tur-repo x11-repo
 apt update -y&&yes|apt upgrade
-pkg i -y xfce4 termux-x11-nightly pulseaudio wget mesa-vulkan-icd-freedreno
+pkg i -y xfce termux-x11-nightly pulseaudio wget mesa-vulkan-icd-freedreno
 D1="$HOME/.config/pip";F1="$D1/pip.conf"
 mkdir -p "$D1"
 grep -q termux-user-repository "$F1" 2>/dev/null||cat>>"$F1"<<'EOF'
@@ -26,6 +26,7 @@ wget https://github.com/termux/termux-x11/releases/latest/download/app-universal
 termux-open ~/storage/shared/Download/Termux/app-universal-debug.apk
 
 sleep 30
+
 
 cd $HOME
 
