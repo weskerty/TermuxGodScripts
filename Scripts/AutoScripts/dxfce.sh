@@ -20,12 +20,12 @@ while true; do
     sleep 3
 done
 mkdir -p /storage/emulated/0/Download/Termux
-cd /storage/emulated/0/Download/
+cd /storage/emulated/0/Download/Termux
 wget https://github.com/termux/termux-x11/releases/latest/download/app-universal-debug.apk
 
 
 
-termux-open ~/storage/shared/Download/Termux/app-universal-debug.apk
+termux-open /storage/emulated/0/Download/Termux/app-universal-debug.apk
 
 sleep 30
 
