@@ -148,7 +148,7 @@ adb shell "/system/bin/cmd appops set --uid $A1 INTERACT_ACROSS_PROFILES allow"
 adb shell "/system/bin/cmd appops set --uid $A1 SCHEDULE_EXACT_ALARM allow"
 adb shell "/system/bin/cmd appops set --uid $A1 START_FOREGROUND allow"
 
-adb kill-server
+
 fi
 
 printf '\033[32m[✓] OK\033[0m\n'
