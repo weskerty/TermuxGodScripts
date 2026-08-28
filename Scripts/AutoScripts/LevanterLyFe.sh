@@ -14,8 +14,10 @@ echo -e "${G}Actualizando repositorios...${N}"
 pkg update -y
 
 echo -e "${G}Instalando dependencias...${N}"
-apt update -y && yes | apt upgrade && pkg install -y git build-essential nano msedit python nodejs-lts ffmpeg yarn libvips
+apt update -y && yes | apt upgrade && pkg install -y git build-essential clang make pkg-config nano msedit python python-pip nodejs-lts ffmpeg yarn libvips wget p7zip unzip file libxml2 libxslt
+pip install cython wheel setuptools python-dotenv
 # Python para el Plugin externo DLA que usa yt-dlp, el bot en si no necesita python. libvips por que sharp es una mierda.
+# De nuevo, no se cual es la mierda que hace que Sharp falle, asi que agrego paquetes primero, luego NDK
 
 echo -e "${G}Generando node-gyp...${N}"
 mkdir -p ~/.gyp
@@ -27,10 +29,17 @@ echo -e "${G}Instalando PM2...${N}"
 yarn global add pm2
 
 echo -e "${G}Instalando Bot...${N}"
-git clone --depth 1 https://github.com/lyfe00011/levanter.git ~/levanter || exit 1
+if [ -d ~/levanter ]; then
+  echo -e "${Y}Levanter ya existe, se reutiliza la carpeta (no se borra database.db ni datos previos).${N}"
+else
+  git clone --depth 1 https://github.com/lyfe00011/levanter.git ~/levanter || exit 1
+fi
 cd ~/levanter || exit 1
 yarn install
 
+if [ -f config.env ]; then
+  echo -e "${Y}config.env ya existe, se conserva (solo se podra actualizar el SESSION_ID).${N}"
+else
 cat > config.env << 'EOF'
 SESSION_ID = ""
 SUDO = ""
@@ -69,6 +78,7 @@ ANTIWORDS_MSG = "> i _&mention no word"
 PERSONAL_MESSAGE = "null"
 RESTART_CMD = "pm2 restart levanter"
 EOF
+fi
 
 echo -e "\e[1;35m¿Tienes tu SESSION_ID? Presiona ${G}N${N} para escanear el QR desde Aqui. Presiona ${G}Y${N} para iniciar sesion desde la Web:${N}"
 read -r HAS_SID
@@ -76,7 +86,7 @@ if [[ "$HAS_SID" == "y" ]]; then
   termux-open "https://levanter.site/session"
   echo -e "\e[1;35mVe a ${G}levanter.site/session${N} y pega tu SESSION_ID aqui, luego presiona Enter:${N}"
   read -r SID
-  sed -i "s|SESSION_ID = \"\"|SESSION_ID = \"$SID\"|" config.env
+  sed -i "s|^SESSION_ID = \".*\"|SESSION_ID = \"$SID\"|" config.env
 fi
 
 echo -e "${G}Configurando autoinicio...${N}"
@@ -98,7 +108,8 @@ while [ $timeout -gt 0 ]; do
   timeout=$((timeout - 1))
 done
 echo -e "\n${GREEN}Iniciando Bot...${NC}"
-cd ~/levanter && yarn start
+cd ~/levanter
+yarn start
 EOF
 
 echo -e "${G}Iniciando Bot... Plugins Extras Aqui https://levanter.site/plugin ${N}"
